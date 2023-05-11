@@ -21,21 +21,3 @@ OP1 = MN1+MN2; // sets OP1 equal to mn1+mn2 witch is 90
 
 document.write("    ADD 24+66 = "+OP1); //writes ADD 24+66 = 90
 
-//-------------------------------------------------------------------------------------------------------------------------------------
-//contigrated
-//-------------------------------------------------------------------------------------------------------------------------------------
-
-function myFunction(){
-    var sent = "I am learning";
-    sent += "a lot from this book!";
-    document.getElementById("Waho").innerHTML = sent;
-}
-
-// create a string variable
-var myString = "Hello, ";
-
-// concatenate additional text to the string
-myString += "world!";
-
-// display the concatenated string in the output element
-document.getElementById("output").innerHTML = myString;
