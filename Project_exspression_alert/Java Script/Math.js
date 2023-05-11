@@ -7,3 +7,8 @@ function MathFunction(){
     OUT = A+B+C;
     document.getElementById("Math").innerHTML = OUT;
 }
+
+function subtract_Function() {
+    var Sub = 5-2;
+    document.getElementById("Math1").innerHTML="5-2= "+Sub;
+}
