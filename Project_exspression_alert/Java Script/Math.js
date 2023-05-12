@@ -35,7 +35,7 @@ function MOD1_Function() {
 
 function MOD_Function() {
     var Sub = 25%6;
-    document.getElementById("MOD").innerHTML="25%6= "+Sub;
+    document.getElementById("MOD").innerHTML="25%6= "+Sub; // = write an exspression combining a string and number
 }
 
 var I =5;
@@ -47,6 +47,38 @@ document.write(i)
 
 window.alert(Math.random());
 window.alert(Math.random()*100)
+
+//Project5Comparasins_type_coercion
+var LN = 12
+var MN = 24
+var TN = 99
+
+if(TN == LN){ // Equality some diff 
+    document.write("MOD1")
+}
+else if(TN === MN){ // Strict Equality no dif
+    document.write("MOD2")
+}
+else if(MN>TN){  //greater than
+    document.write("MOD1")
+}
+else if(LN<TN){ //less than
+    document.write("MOD3")
+}
+else if(TN && TN){ //logical and
+    document.write("MOD4")
+}
+else if(LN || TN){ //or gate
+    document.write("MOD5")
+}
+else if(TN != LN){ //inequality
+    document.write("MOD6")
+}
+else{
+    document.write("MOD7")
+}
+
+
 
 
 
