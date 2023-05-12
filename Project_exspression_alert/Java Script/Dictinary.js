@@ -1,10 +1,10 @@
 function my_Dictinary(){
-    var Animal = {
-        species:"Dog",
-        Color:"Black",
-        Breed:"lab",
-        Age:4,
-        Sound:"Bark"
+    var Animal = { //Declared VAR
+        species:"Dog", //added value
+        Color:"Black", //added value
+        Breed:"lab",   //added value
+        Age:4,         //added value
+        Sound:"Bark"   //added value
     };
-    document.getElementById("Ani").innerHTML = Animal.Sound;
+    document.getElementById("Ani").innerHTML = Animal.Sound; //connected js with correct line of html and told it to pull val animal.sound = Bark
 }
