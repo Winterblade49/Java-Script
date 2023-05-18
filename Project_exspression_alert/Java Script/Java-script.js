@@ -248,10 +248,20 @@ myString += "world!";
 document.getElementById("Contcatenate").innerHTML = myString;
 }
 
+//While Loop
+function loop_While_1(){
+    Z=0
+    while(Z < 2){
+        alert("Alert Alarm is starting");
+        Z = Z+1;
+    }
+}
+
 
 //Timer Function
 function countdown(){
     var seconds = document.getElementById("seconds").value;
+    loop_While_1()
     tick()
 
     function tick(){
@@ -266,5 +276,26 @@ function countdown(){
     }
 }
 
+var Inster = ["G","D","F","H","J","K","L","M",]
+var Content = "";
+var y;
+
+function For_loop(){
+    for (y = 0; y < Inster.length; y++) {
+        Content += Inster[y]+"<br>"
+    }
+    document.getElementById("List_of_Inter").innerHTML = Content;
+}
+
+function Let_var(){
+var change = 223+"<br>";
+document.write(change);
+    {
+    let change = 332+"<br>";
+    document.write(change);
+    }
+
+    document.write(change);
+}
 
 
