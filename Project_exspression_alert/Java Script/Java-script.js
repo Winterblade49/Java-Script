@@ -237,6 +237,7 @@ function myFunction(){
     document.getElementById("Waho").innerHTML = sent;
 }
 
+function slice_Method(){
 // create a string variable
 var myString = "Hello, ";
 
@@ -244,8 +245,8 @@ var myString = "Hello, ";
 myString += "world!";
 
 // display the concatenated string in the output element
-document.getElementById("output").innerHTML = myString;
-
+document.getElementById("Contcatenate").innerHTML = myString;
+}
 
 
 
