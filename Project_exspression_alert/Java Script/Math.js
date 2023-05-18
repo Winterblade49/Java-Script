@@ -14,28 +14,28 @@ function subtract_Function() {
 }
 
 function multi_Function() {
-    var Sub = 5*2;
-    document.getElementById("Math2").innerHTML ="5*2= "+ Sub ;
+    var Sub1 = 5*2;
+    document.getElementById("Math2").innerHTML="5*2= "+Sub1;
 }
 
 function divide_Function() {
-    var Sub = 5/2;
-    document.getElementById("Math3").innerHTML="5/2= "+Sub;
+    var Sub2 = 5/2;
+    document.getElementById("Math3").innerHTML="5/2= "+Sub2;
 }
 
 function multipl_Function() {
-    var Sub = 5/2*10+12;
-    document.getElementById("Math4").innerHTML="5/2*10+12= "+Sub;
+    var Sub3 = 5/2*10+12;
+    document.getElementById("Math4").innerHTML="5/2*10+12= "+Sub3;
 }
 
 function MOD1_Function() {
-    var Sub = 25%6;
-    document.getElementById("MOD1").innerHTML="25%6= "+ -Sub;
+    var Sub4 = 25%6;
+    document.getElementById("MOD1").innerHTML="25%6= "+ -Sub4;
 }
 
 function MOD_Function() {
-    var Sub = 25%6;
-    document.getElementById("MOD").innerHTML="25%6= "+Sub; // = write an exspression combining a string and number
+    var Sub5 = 25%6;
+    document.getElementById("MOD").innerHTML="25%6= "+Sub5; // = write an exspression combining a string and number
 }
 
 var I = 5;
