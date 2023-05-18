@@ -15,7 +15,7 @@ function subtract_Function() {
 
 function multi_Function() {
     var Sub = 5*2;
-    document.getElementById("Math2").innerHTML="5*2= "+Sub;
+    document.getElementById("Math2").innerHTML ="5*2= "+ Sub ;
 }
 
 function divide_Function() {
@@ -38,12 +38,12 @@ function MOD_Function() {
     document.getElementById("MOD").innerHTML="25%6= "+Sub; // = write an exspression combining a string and number
 }
 
-var I =5;
+var I = 5;
 I++
 document.write(I)
 var IO = 5;
 IO--
-document.write(i)
+document.write(I)
 
 window.alert(Math.random());
 window.alert(Math.random()*100)
