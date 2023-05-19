@@ -67,7 +67,7 @@ function arrayIncludes(squareA, squareB, squareC){
     const a = selectedSquares.includes(squareA);
     const b = selectedSquares.includes(squareB);
     const c = selectedSquares.includes(squareC);
-    if (a === true && b === true && c === true){ return true }
+    if (a === true && b === true && c === true){ return true; }
 }
 
 function drawWinline(coordx1,coordy1,coordx2,coordy2){
@@ -79,17 +79,17 @@ function drawWinline(coordx1,coordy1,coordx2,coordy2){
         y2 = coordy2,
         x = x1,
         y = y1;
-}
+
 
 function animatedLineDrawing(){
     const animationLoop = requestAnimationFrame(animatedLineDrawing);
     c.clearRect(0, 0, 608, 608);
-    C.beginpath();
-    C.moveto(x1,y1)
-    C.lineto(x,y)
-    C.linewidth = 10;
-    C.strokeStyle = 'rgba(70, 255, 33, .8)'
-    C.stroke();
+    c.beginPath();
+    c.moveTo(x1,y1)
+    c.lineTo(x,y)
+    c.lineWidth = 10;
+    c.strokeZtyle = 'rgba(70, 255, 33, .8)'
+    c.stroke();
     if (x1 <= x2 && y1 <= y2){
         if(x < x2){x += 10; }
         if(y < y2){y += 10; }
@@ -100,9 +100,10 @@ function animatedLineDrawing(){
         if(y > y2) { y-=10; }
         if(x >= x2 && y <= y2) { cancelAnimationFrame(animationLoop);}
     }
+}
     function clear() {
         const animationLoop = requestAnimationFrame(clear);
-        C.clearRect(0, 0, 608, 608);
+        c.clearRect(0, 0, 608, 608);
         cancelAnimationFrame(animationLoop);
     }
     disableClick();
